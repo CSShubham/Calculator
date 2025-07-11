@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 70vmin;
+    width: 50vmin;
+    border: 3px solid black;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgb(243, 164, 61);
+    font-size: 5vmin;
+    border-radius: 5px;
+}
+#input-area{
+    height: 12vmin;
+    width: 100%;
+    background-color: antiquewhite;
+    font-size: 5vmin;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 3vmin;
+    position: relative;
+}
+.operator-area{
+    position: absolute;
+    left: 3vmin;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.number-area{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 3vmin;
+}
+.btn-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 15px; */
+    padding-top: 5px;
+    grid-template-columns:10vmin 10vmin 10vmin 10vmin;
+    gap:10px;
+    
+}
+.btn{
+    height: 10vmin;
+    width: 10vmin;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgb(243, 190, 148);
+}
+.operator-area{
+    height:10vmin ;
+    border: 2px solid black;
+    width: 10vmin;
+}
