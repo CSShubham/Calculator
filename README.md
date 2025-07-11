@@ -16,10 +16,10 @@ A simple and responsive calculator built using HTML, CSS, and JavaScript. It per
 
 ## 📁 Project Structure
 
-calculator/
-├── index.html
-├── style.css
-└── calculate.js
+calculator/  
+├── index.html  
+├── style.css  
+└── calculate.js  
 
 
 - `index.html`: Markup for the calculator layout
